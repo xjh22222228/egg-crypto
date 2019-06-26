@@ -1,6 +1,6 @@
 # egg-crypto
 
-[crypto-js](https://github.com/brix/crypto-js) plugin for Egg.js.
+此插件基于 [crypto-js](https://github.com/brix/crypto-js) 实现一个简单的配置封装，具体使用方法你还需要阅读 [crypto-js](https://github.com/brix/crypto-js) 的文档。
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -22,28 +22,30 @@
 [download-image]: https://img.shields.io/npm/dm/egg-crypto.svg?style=flat-square
 [download-url]: https://npmjs.org/package/egg-crypto
 
-
-[README](README.md) | [中文文档](README.zh_CN.md)
-
-
-## Install
+## 安装
 
 ```bash
 $ npm i egg-crypto --save
 ```
 
-## Usage
+### 依赖的 egg 版本
+
+egg-crypto 版本 | egg 1.x
+--- | ---
+1.x | 😁
+0.x | ❌
+
+## 开启插件
 
 ```js
-// {app_root}/config/plugin.js
-exports.mailer = {
+// config/plugin.js
+exports.crypto = {
   enable: true,
   package: 'egg-crypto',
 };
 ```
 
-## Example
-
+## 例子
 ```js
 // app/controller/home.js
 
@@ -58,9 +60,11 @@ class HomeController extends Controller {
 }
 
 module.exports = HomeController;
+
 ```
 
-## List
+
+## 支持加密列表
 
 - ```md5```
 - ```sha1```
@@ -127,9 +131,11 @@ module.exports = HomeController;
 
 
 
-## Questions & Suggestions
 
-Please open an issue [here](https://github.com/eggjs/egg/issues).
+
+## 提问交流
+
+请到 [egg issues](https://github.com/eggjs/egg/issues) 异步交流。
 
 ## License
 
