@@ -62,69 +62,74 @@ module.exports = HomeController;
 
 ## List
 
-- ```md5```
-- ```sha1```
-- ```sha256```
-- ```sha224```
-- ```sha512```
-- ```sha384```
-- ```sha3```
-- ```ripemd160```
+- ```crypto-js/core```
+- ```crypto-js/x64-core```
+- ```crypto-js/lib-typedarrays```
 
 ---
 
-- ```hmac-md5```
-- ```hmac-sha1```
-- ```hmac-sha256```
-- ```hmac-sha224```
-- ```hmac-sha512```
-- ```hmac-sha384```
-- ```hmac-sha3```
-- ```hmac-ripemd160```
+- ```crypto-js/md5```
+- ```crypto-js/sha1```
+- ```crypto-js/sha256```
+- ```crypto-js/sha224```
+- ```crypto-js/sha512```
+- ```crypto-js/sha384```
+- ```crypto-js/sha3```
+- ```crypto-js/ripemd160```
 
 ---
 
-- ```pbkdf2```
+- ```crypto-js/hmac-md5```
+- ```crypto-js/hmac-sha1```
+- ```crypto-js/hmac-sha256```
+- ```crypto-js/hmac-sha224```
+- ```crypto-js/hmac-sha512```
+- ```crypto-js/hmac-sha384```
+- ```crypto-js/hmac-sha3```
+- ```crypto-js/hmac-ripemd160```
 
 ---
 
-- ```aes```
-- ```tripledes```
-- ```rc4```
-- ```rabbit```
-- ```rabbit-legacy```
-- ```evpkdf```
+- ```crypto-js/pbkdf2```
 
 ---
 
-- ```format-openssl```
-- ```format-hex```
+- ```crypto-js/aes```
+- ```crypto-js/tripledes```
+- ```crypto-js/rc4```
+- ```crypto-js/rabbit```
+- ```crypto-js/rabbit-legacy```
+- ```crypto-js/evpkdf```
 
 ---
 
-- ```enc-latin1```
-- ```enc-utf8```
-- ```enc-hex```
-- ```enc-utf16```
-- ```enc-base64```
+- ```crypto-js/format-openssl```
+- ```crypto-js/format-hex```
 
 ---
 
-- ```mode-cfb```
-- ```mode-ctr```
-- ```mode-ctr-gladman```
-- ```mode-ofb```
-- ```mode-ecb```
+- ```crypto-js/enc-latin1```
+- ```crypto-js/enc-utf8```
+- ```crypto-js/enc-hex```
+- ```crypto-js/enc-utf16```
+- ```crypto-js/enc-base64```
 
 ---
 
-- ```pad-pkcs7```
-- ```pad-ansix923```
-- ```pad-iso10126```
-- ```pad-iso97971```
-- ```pad-zeropadding```
-- ```pad-nopadding```
+- ```crypto-js/mode-cfb```
+- ```crypto-js/mode-ctr```
+- ```crypto-js/mode-ctr-gladman```
+- ```crypto-js/mode-ofb```
+- ```crypto-js/mode-ecb```
 
+---
+
+- ```crypto-js/pad-pkcs7```
+- ```crypto-js/pad-ansix923```
+- ```crypto-js/pad-iso10126```
+- ```crypto-js/pad-iso97971```
+- ```crypto-js/pad-zeropadding```
+- ```crypto-js/pad-nopadding```
 
 
 ## Questions & Suggestions

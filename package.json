@@ -13,18 +13,18 @@
     "crypto"
   ],
   "dependencies": {
-    "@types/crypto-js": "^3.1.43",
-    "crypto-js": "^3.1.9-1"
+    "@types/crypto-js": "^4.0.1",
+    "crypto-js": "^4.0.0"
   },
   "devDependencies": {
-    "autod": "^3.0.1",
+    "autod": "^3.1.1",
     "autod-egg": "^1.1.0",
-    "egg": "^2.16.0",
-    "egg-bin": "^4.11.0",
-    "egg-ci": "^1.11.0",
-    "egg-mock": "^3.21.0",
-    "eslint": "^5.13.0",
-    "eslint-config-egg": "^7.1.0"
+    "egg": "^2.29.1",
+    "egg-bin": "^4.15.0",
+    "egg-ci": "^1.18.0",
+    "egg-mock": "^4.0.1",
+    "eslint": "^7.16.0",
+    "eslint-config-egg": "^9.0.0"
   },
   "engines": {
     "node": ">=8.0.0"
